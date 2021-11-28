@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Header title="I need to set this up !" />
         <p className="description">
-          So many things to do... so little time.</code>
+          So many things to doo... so little time.</code>
         </p>
       </main>
 
