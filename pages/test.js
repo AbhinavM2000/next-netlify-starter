@@ -84,6 +84,7 @@ export default function MyComponent(props) {
             align-self: stretch;
             margin-left: auto;
             margin-right: auto;
+            text-align: center;
           }
         }
         .div-2 {
