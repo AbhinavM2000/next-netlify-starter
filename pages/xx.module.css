@@ -1,9 +1,9 @@
 
-div {
+.maincontainer {
   border-radius: 5px;
 }
 
-#header {
+.headermainheader {
   height: 40px;
   width: 100%;
   background-color: #ffcccc;
