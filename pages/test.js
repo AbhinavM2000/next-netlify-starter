@@ -3,9 +3,7 @@ export default function MyComponent(props) {
     <>
      
 <style>
-* {
-  box-sizing: border-box;
-}
+
 
 html {
   background: url(//css-tricks.com/examples/OnePageResume/images/noise.jpg);
