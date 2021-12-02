@@ -27,7 +27,7 @@ export default function MyComponent(props) {
     <a href="http://www.wiltonhighschool.org/pages/Wilton_High_School">
       <li>Wilton High School</li>
     </a>
-    <!--Link-->
+ 
     <a href="https://www.silvermineart.org/">
       <li>Silvermine School of Arts</li>
     </a>
