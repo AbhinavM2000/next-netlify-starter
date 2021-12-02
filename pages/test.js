@@ -5,11 +5,11 @@ export default function MyComponent(props) {
 <div id="header"></div>
 <div class="left"></div>
 <div class="stuff">
-  <br><br>
+
   <h1>Resume</h1>
   <h2>Emily</h2>
   <hr />
-  <br>
+ 
   <p class="head">Interests</p>
   <ul>
     <li>Drawing</li>
