@@ -5,9 +5,6 @@ export default function MyComponent(props) {
 <style>
 
 
-html {
-  background:url("https://css-tricks.com/examples/OnePageResume/images/noise.jpg");
-}
 
 body {
   margin: 2.2rem;
