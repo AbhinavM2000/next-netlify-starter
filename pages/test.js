@@ -1,4 +1,4 @@
-import './xx.css'
+import './xx.module.css'
 
 
 export default function MyComponent(props) {
