@@ -4,8 +4,8 @@ import './xx.module.css'
 export default function MyComponent(props) {
   return (
     <>
-     
-<div id="header"></div>
+<div id="maincontainer">     
+<div id="headermainheader"></div>
 <div class="left"></div>
 <div class="stuff">
 
@@ -51,7 +51,7 @@ export default function MyComponent(props) {
 <div class="right"></div>
 <div id="footer">
   <h2 id="name">Emily</h2></div>
-
+</div>
     </>
   );
 }
