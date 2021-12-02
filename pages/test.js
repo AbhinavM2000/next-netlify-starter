@@ -6,7 +6,7 @@ export default function MyComponent(props) {
 
 
 html {
-  background: url(//css-tricks.com/examples/OnePageResume/images/noise.jpg);
+  background:css-tricks.com/examples/OnePageResume/images/noise.jpg;
 }
 
 body {
@@ -17,7 +17,7 @@ div#resume {
   min-width: 310px;
   font: 16px Helvetica, Avernir, sans-serif;
   line-height: 24px;
-  color: #000
+  color: #000;
 }
 
 div#resume h1 {
@@ -48,7 +48,7 @@ div#resume h2 span {
 }
 
 div#resume p {
-  margin: 0 0 16px 0
+  margin: 0 0 16px 0;
 }
 
 div#resume a {
