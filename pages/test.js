@@ -1,3 +1,6 @@
+import xx.css
+
+
 export default function MyComponent(props) {
   return (
     <>
