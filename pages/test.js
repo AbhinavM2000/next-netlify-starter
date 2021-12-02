@@ -6,7 +6,7 @@ export default function MyComponent(props) {
 
 
 html {
-  background:css-tricks.com/examples/OnePageResume/images/noise.jpg;
+  background:"https://css-tricks.com/examples/OnePageResume/images/noise.jpg";
 }
 
 body {
