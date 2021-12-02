@@ -4,15 +4,15 @@ export default function MyComponent(props) {
      
 <style>
 * {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 html {
-  background: url(//css-tricks.com/examples/OnePageResume/images/noise.jpg)
+  background: url(//css-tricks.com/examples/OnePageResume/images/noise.jpg);
 }
 
 body {
-  margin: 2.2rem
+  margin: 2.2rem;
 }
 
 div#resume {
@@ -29,13 +29,13 @@ div#resume h1 {
   font-weight: bold;
   letter-spacing: -2px;
   border-bottom: 1px solid #999;
-  line-height: 50px
+  line-height: 50px;
 }
 
 div#resume h2 {
   font-size: 20px;
   margin: 0 0 6px 0;
-  position: relative
+  position: relative;
 }
 
 div#resume h2 span {
@@ -46,7 +46,7 @@ div#resume h2 span {
   font-family: Georgia, serif;
   font-size: 16px;
   color: #999;
-  font-weight: normal
+  font-weight: normal;
 }
 
 div#resume p {
@@ -56,18 +56,18 @@ div#resume p {
 div#resume a {
   color: #999;
   text-decoration: none;
-  border-bottom: 1px dotted #999
+  border-bottom: 1px dotted #999;
 }
 
 div#resume a:hover {
   border-bottom-style: solid;
-  color: #000
+  color: #000;
 }
 
 div#resume p.objective {
   font-family: Georgia, serif;
   font-style: italic;
-  color: #666
+  color: #666;
 }
 
 div#resume dt {
@@ -77,22 +77,22 @@ div#resume dt {
   text-align: right;
   padding: 0 26px 0 0;
   width: 150px;
-  border-right: 1px solid #999
+  border-right: 1px solid #999;
 }
 
 div#resume dl {
-  display: table-row
+  display: table-row;
 }
 
 div#resume dl dt,
 div#resume dl dd {
   display: table-cell;
-  padding-bottom: 20px
+  padding-bottom: 20px;
 }
 
 div#resume dl dd {
   width: 500px;
-  padding-left: 26px
+  padding-left: 26px;
 }
 
 div#resume img {
@@ -103,30 +103,30 @@ div#resume img {
   transform: rotate(-4deg);
   box-shadow: 0 0 4px rgba(0, 0, 0, .3);
   width: 30%;
-  max-width: 220px
+  max-width: 220px;
 }
 
 @media screen and (max-width:1100px) {
   div#resume h2 span {
     position: static;
     display: block;
-    margin-top: 2px
+    margin-top: 2px;
   }
 }
 
 @media screen and (max-width:550px) {
   body {
-    margin: 1rem
+    margin: 1rem;
   }
   div#resume img {
-    transform: rotate(0deg)
+    transform: rotate(0deg);
   }
 }
 
 @media screen and (max-width:400px) {
   div#resume dl dt {
     border-right: none;
-    border-bottom: 1px solid #999
+    border-bottom: 1px solid #999;
   }
   div#resume dl,
   div#resume dl dd,
@@ -136,32 +136,32 @@ div#resume img {
     margin-left: 0;
     padding-bottom: 0;
     text-align: left;
-    width: 100%
+    width: 100%;
   }
   div#resume dl dd {
-    margin-top: 6px
+    margin-top: 6px;
   }
   div#resume h2 {
     font-style: normal;
     font-weight: 400;
-    font-size: 18px
+    font-size: 18px;
   }
   div#resume dt {
-    font-size: 20px
+    font-size: 20px;
   }
   h1 {
     font-size: 36px;
     margin-right: 0;
-    line-height: 0
+    line-height: 0;
   }
   div#resume img {
-    margin: 0
+    margin: 0;
   }
 }
 
 @media screen and (max-width:320px) {
   body {
-    margin: 0
+    margin: 0;
   }
   img {
     margin: 0;
@@ -170,11 +170,11 @@ div#resume img {
   div#resume {
     width: 320px;
     padding: 12px;
-    overflow: hidden
+    overflow: hidden;
   }
   p,
   li {
-    margin-right: 20px
+    margin-right: 20px;
   }
 }
 </style>
