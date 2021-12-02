@@ -50,7 +50,7 @@ export default function MyComponent(props) {
 </div>
 <div class="right"></div>
 <div id="footer">
-  <h2 id="name">Emily</h2></div>
+  <div id="name">Emily</h2></div>
 </div>
     </>
   );
