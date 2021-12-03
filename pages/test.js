@@ -2,14 +2,40 @@ export default function MyComponent(props) {
   return (
     <>
       <div className="div">
-        <p>
-          <strong>
-            <em>Curriculum vitae</em>
-          </strong>
-          <span class="ql-cursor">﻿</span>
-        </p>
+        <div className="div-2">
+          <p>
+            <strong>DHANUS M LAL</strong>
+          </p>
+        </div>
+        <div className="div-3">
+          <div className="builder-columns columns">
+            <div className="builder-column column">
+              <div className="div-4">
+                <p>HOME</p>
+              </div>
+            </div>
+
+            <div className="builder-column column-2">
+              <div className="div-5">
+                <p>ABOUT</p>
+              </div>
+            </div>
+
+            <div className="builder-column column-3">
+              <div className="div-6">
+                <p>BLOG</p>
+              </div>
+            </div>
+
+            <div className="builder-column column-4">
+              <div className="div-7">
+                <p>CONTACT</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="div-2" maxWidth={1200}>
+      <div className="div-8" maxWidth={1200}>
         <section className="section">
           <p>
             <strong>
@@ -83,7 +109,7 @@ export default function MyComponent(props) {
           display: flex;
           flex-direction: column;
           position: relative;
-          margin-top: 20px;
+          margin-top: 1px;
           height: auto;
           padding-top: 0px;
           background-color: rgba(147, 155, 147, 1);
@@ -94,9 +120,6 @@ export default function MyComponent(props) {
           margin-left: 150px;
           margin-right: 150px;
           padding-left: px;
-          line-height: normal;
-          text-align: center;
-          color: rgba(255, 255, 255, 1);
         }
         @media (max-width: 991px) {
           .div {
@@ -108,11 +131,127 @@ export default function MyComponent(props) {
             margin-top: 0px;
             width: 100vw;
             align-self: stretch;
+            margin-left: calc(50% - 50vw);
+          }
+        }
+        .div-2 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 20px;
+          line-height: normal;
+          height: auto;
+          text-align: center;
+          color: rgba(255, 255, 255, 1);
+          padding-bottom: 0px;
+          margin-bottom: -2px;
+        }
+        @media (max-width: 991px) {
+          .div-2 {
             margin-left: auto;
             margin-right: auto;
           }
         }
-        .div-2 {
+        .div-3 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-bottom: -1px;
+        }
+        .columns {
+          display: flex;
+        }
+        @media (max-width: 999px) {
+          .columns {
+            flex-direction: column;
+            align-items: stretch;
+          }
+        }
+        .column {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: calc(25% - 15px);
+          margin-left: 0px;
+        }
+        @media (max-width: 999px) {
+          .column {
+            width: 100%;
+          }
+        }
+        .div-4 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 30px;
+          text-align: center;
+          line-height: normal;
+          height: auto;
+        }
+        .column-2 {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: calc(25% - 15px);
+          margin-left: 20px;
+        }
+        @media (max-width: 999px) {
+          .column-2 {
+            width: 100%;
+          }
+        }
+        .div-5 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 30px;
+          text-align: center;
+          line-height: normal;
+          height: auto;
+        }
+        .column-3 {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: calc(25% - 15px);
+          margin-left: 20px;
+        }
+        @media (max-width: 999px) {
+          .column-3 {
+            width: 100%;
+          }
+        }
+        .div-6 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 30px;
+          text-align: center;
+          line-height: normal;
+          height: auto;
+        }
+        .column-4 {
+          display: flex;
+          flex-direction: column;
+          line-height: normal;
+          width: calc(25% - 15px);
+          margin-left: 20px;
+        }
+        @media (max-width: 999px) {
+          .column-4 {
+            width: 100%;
+          }
+        }
+        .div-7 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 30px;
+          text-align: center;
+          line-height: normal;
+          height: auto;
+        }
+        .div-8 {
           display: flex;
           flex-direction: column;
           position: relative;
@@ -127,7 +266,7 @@ export default function MyComponent(props) {
           text-align: center;
         }
         @media (max-width: 991px) {
-          .div-2 {
+          .div-8 {
             background-color: rgba(224, 201, 166, 1);
           }
         }
