@@ -11,7 +11,7 @@ export default function MyComponent(props) {
           <div className="builder-columns columns">
             <div className="builder-column column">
               <div className="div-4">
-                <a style={{'hover-color':'blue','hover-opacity':1}} href="url">HOME</a>
+               <p style={{'color':'red','--hover-color':'blue','--hover-opacity':0.5}}><a href="url">HOME</a></p>
               </div>
             </div>
 
