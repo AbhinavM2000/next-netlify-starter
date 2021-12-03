@@ -1,6 +1,6 @@
 export default function MyComponent(props) {
   return (
-    <><meta name="viewport" content="width=device-width, initial-scale=1">
+    <>
       <div className="div">
         <p>
           <strong>
@@ -12,30 +12,11 @@ export default function MyComponent(props) {
       <div className="div-2" maxWidth={1200}>
         <section className="section">
           <p>
-            <b>
-              I am a section! My content keeps from getting too wide, so that
-              it's easy to read even on big screens.
-            </b>
-          </p>{" "}
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur
-          </p>{" "}
-        </section>
-      </div>{" "}
-      <div className="div-3" maxWidth={1200}>
-        <section className="section">
-          {" "}
-          <p>
             <strong>
               I am a section! My content keeps from getting too wide, so that
               it's easy to read even on big screens.
             </strong>
-          </p>
+          </p>{" "}
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -43,19 +24,60 @@ export default function MyComponent(props) {
             aliquip ex ea commodo consequat. Duis aute irure dolor in
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur
-          </p>
-          <p>0</p>
-          <p>0</p>
-          <p>0</p>
-          <p>0</p>
-          <p>0</p>
-          <p>0</p>
-          <p>0</p>
-          <p>0</p>
-          <p>0</p>
-          <p>0</p>
+          </p>{" "}
+          <p>
+            <br />
+          </p>{" "}
+          <p>
+            <br />
+          </p>{" "}
+          <p>
+            <br />
+          </p>{" "}
+          <p>
+            <br />
+          </p>{" "}
+          <p>
+            <br />
+          </p>{" "}
+          <p>
+            <br />
+          </p>{" "}
+          <p>
+            <br />
+          </p>{" "}
+          <p>
+            <br />
+          </p>{" "}
+          <p>
+            <br />
+          </p>{" "}
+          <p>
+            <br />
+          </p>{" "}
+          <p>
+            <br />
+          </p>{" "}
+          <p>
+            <br />
+          </p>{" "}
+          <p>
+            <br />
+          </p>{" "}
+          <p>
+            <br />
+          </p>{" "}
+          <p>
+            <br />
+          </p>{" "}
+          <p>
+            <br />
+          </p>{" "}
+          <p>
+            <br />
+          </p>{" "}
         </section>
-      </div>
+      </div>{" "}
       <style jsx>{`
         .div {
           display: flex;
@@ -119,28 +141,7 @@ export default function MyComponent(props) {
           margin-left: auto;
           margin-right: auto;
         }
-        .div-3 {
-          display: flex;
-          flex-direction: column;
-          position: relative;
-          margin-top: 0px;
-          padding-left: 20px;
-          padding-right: 20px;
-          padding-top: 50px;
-          padding-bottom: 50px;
-          width: 100vw;
-          margin-left: 150px;
-          text-align: center;
-          margin-right: 150px;
-        }
-        @media (max-width: 991px) {
-          .div-3 {
-            margin-bottom: 0px;
-            padding-bottom: 35px;
-            background-color: rgba(224, 201, 166, 1);
-          }
-        }
-      `}</style>
+      `}</style>{" "}
     </>
   );
 }
