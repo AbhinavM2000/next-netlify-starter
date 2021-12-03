@@ -17,7 +17,7 @@ export default function MyComponent(props) {
 
             <div className="builder-column column-2">
               <div className="div-5">
-                <p>ABOUT</p>
+                <p style={{'color':'red','--hover-color':'blue','--hover-opacity':0.5}}>ABOUT</p>
               </div>
             </div>
 
@@ -270,15 +270,9 @@ export default function MyComponent(props) {
             background-color: rgba(224, 201, 166, 1);
           }
         }
-        .div-ab
-        {
-          hover {color: red;}
-          color: black; 
-          text-decoration: none;
+      
+         
         
-        
-        
-        }
         .section {
           width: 100%;
           align-self: stretch;
