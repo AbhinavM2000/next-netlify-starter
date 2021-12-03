@@ -11,7 +11,7 @@ export default function MyComponent(props) {
           <div className="builder-columns columns">
             <div className="builder-column column">
               <div className="div-4">
-                <p>HOME</p>
+                <p style={{'color':'red','--hover-color':'blue','--hover-opacity':0.5}}>HOME</p>
               </div>
             </div>
 
@@ -23,13 +23,13 @@ export default function MyComponent(props) {
 
             <div className="builder-column column-3">
               <div className="div-6">
-                <p>BLOG</p>
+                <p><p style={{'color':'red','--hover-color':'blue','--hover-opacity':0.5}}>BLOG</p>
               </div>
             </div>
 
             <div className="builder-column column-4">
               <div className="div-7">
-                <p>CONTACT</p>
+                <p style={{'color':'red','--hover-color':'blue','--hover-opacity':0.5}}>CONTACT</p>
               </div>
             </div>
           </div>
