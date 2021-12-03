@@ -23,7 +23,7 @@ export default function MyComponent(props) {
 
             <div className="builder-column column-3">
               <div className="div-6">
-                <p><p style={{'color':'red','--hover-color':'blue','--hover-opacity':0.5}}>BLOG</p>
+                <p style={{'color':'red','--hover-color':'blue','--hover-opacity':0.5}}>BLOG</p>
               </div>
             </div>
 
