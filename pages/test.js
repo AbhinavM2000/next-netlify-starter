@@ -64,16 +64,17 @@ export default function MyComponent(props) {
           margin-top: 20px;
           height: auto;
           padding-top: 0px;
-          background-color: rgba(74, 74, 74, 1);
+          background-color: rgba(147, 155, 147, 1);
           opacity: 1;
           font-family: "sans-serif", sans-serif;
           padding-bottom: 30px;
           margin-bottom: -2px;
-          margin-left: 100px;
-          margin-right: 100px;
+          margin-left: 150px;
+          margin-right: 150px;
           padding-left: px;
           line-height: normal;
           text-align: center;
+          color: rgba(255, 255, 255, 1);
         }
         @media (max-width: 991px) {
           .div {
@@ -98,9 +99,9 @@ export default function MyComponent(props) {
           padding-right: 20px;
           padding-top: 50px;
           padding-bottom: 50px;
-          margin-left: 100px;
+          margin-left: 150px;
           background-color: rgba(251, 251, 248, 1);
-          margin-right: 100px;
+          margin-right: 150px;
           text-align: center;
         }
         @media (max-width: 991px) {
@@ -128,9 +129,9 @@ export default function MyComponent(props) {
           padding-top: 50px;
           padding-bottom: 50px;
           width: 100vw;
-          margin-left: 100px;
+          margin-left: 150px;
           text-align: center;
-          margin-right: 100px;
+          margin-right: 150px;
         }
         @media (max-width: 991px) {
           .div-3 {
