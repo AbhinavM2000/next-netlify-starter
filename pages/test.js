@@ -11,25 +11,25 @@ export default function MyComponent(props) {
           <div className="builder-columns columns">
             <div className="builder-column column">
               <div className="div-4">
-                <p style={{'color':'red','--hover-color':'blue','--hover-opacity':0.5}}>HOME</p>
+                <p style={{'color':'red','--hover-color':'blue','--hover-opacity':0.5}}><a href="url">HOME</a></p>
               </div>
             </div>
 
             <div className="builder-column column-2">
               <div className="div-5">
-                <p style={{'color':'red','--hover-color':'blue','--hover-opacity':0.5}}>ABOUT</p>
+                <p style={{'color':'red','--hover-color':'blue','--hover-opacity':0.5}}><a href="url">ABOUT</a></p>
               </div>
             </div>
 
             <div className="builder-column column-3">
               <div className="div-6">
-                <p style={{'color':'red','--hover-color':'blue','--hover-opacity':0.5}}>BLOG</p>
+                <p style={{'color':'red','--hover-color':'blue','--hover-opacity':0.5}}><a href="url">BLOG</a></p>
               </div>
             </div>
 
             <div className="builder-column column-4">
               <div className="div-7">
-                <p style={{'color':'red','--hover-color':'blue','--hover-opacity':0.5}}>CONTACT</p>
+                <p style={{'color':'red','--hover-color':'blue','--hover-opacity':0.5}}><a href="url">CONTACT</a></p>
               </div>
             </div>
           </div>
