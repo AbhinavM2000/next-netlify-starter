@@ -12,17 +12,13 @@ export default function Home() {
 
       <main>
         <Header title="I need to set this up !" />
-        <p className="description">
+        <p className="description" onClick={this.props.history.push('/path')}>
           So many things to do... so little time.
         </p>
       </main>
 
      
     </div>
-<script>
-         setTimeout(function(){
-            window.location.href = 'https://www.tutorialspoint.com/javascript/';
-         }, 5000);
-</script>
+
   )
 }
