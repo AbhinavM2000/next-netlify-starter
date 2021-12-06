@@ -6,6 +6,6 @@ const FileViewer = dynamic(() => import('react-file-viewer'), {
 
 export default function Index() {
     return (
-        <FileViewer fileType="pdf" filePath="/pdf.pdf" />
+        <FileViewer fileType="pdf" filePath="./CV.pdf" />
     );
 };
