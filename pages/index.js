@@ -15,7 +15,7 @@ export default function Home() {
         <Header title="I need to set this up !" />
        
 <Link href='https://abnv.ml'> 
-<p className="description">So many things to do... so little time.</p>
+<a>So many things to do... so little time.</a>
 </Link> 
       </main>
 
