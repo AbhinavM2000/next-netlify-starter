@@ -9,7 +9,7 @@ class DocView extends React.Component{
     }
 
     render(){
-        var url = "https://docs.google.com/viewerng/viewer?url=https://github.com/AbhinavM2000/next-netlify-starter/blob/main/pages/cv.js"+this.props.src+"&embedded=true";
+        var url = "https://docs.google.com/viewerng/viewer?url=https://github.com/AbhinavM2000/next-netlify-starter/blob/main/pages/cv.pdf"+this.props.src+"&embedded=true";
         return(
             <iframe style={this.props.style} src={url}></iframe>
         );
