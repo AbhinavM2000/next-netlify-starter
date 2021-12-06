@@ -11,7 +11,7 @@ class DocView extends React.Component{
     render(){
         var url = "https://docs.google.com/viewerng/viewer?url=https://github.com/AbhinavM2000/next-netlify-starter/raw/main/pages/CV.pdf&embedded=true";
         return(
-            <iframe height="100%" width="100%" src={url}></iframe>
+            <iframe height="100%" width="100%" style="position: absolute; top: 0; right: 0; bottom: 0: left: 0;" src={url}></iframe>
         );
     }
 }
