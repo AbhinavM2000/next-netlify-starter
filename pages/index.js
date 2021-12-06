@@ -12,8 +12,8 @@ export default function Home() {
 
       <main>
         <Header title="I need to set this up !" />
-        <p className="description" onClick={this.props.history.push('/path')}>
-          So many things to do... so little time.
+        <p className="description">
+          <Link to='/path' > So many things to do... so little time. </Link>
         </p>
       </main>
 
