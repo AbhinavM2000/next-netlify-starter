@@ -1,16 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import FileViewer from "react-file-viewer";
-
-
-import "./styles.css";
-
-const file = "./Case-Study-Shell.pdf";
-const type = "pdf";
-
-const onError = e => {
-  console.log(e, "error in file-viewer");
-};
 
 const props = {
   allowFullScreen: true,
@@ -22,13 +11,46 @@ const props = {
 
 function App() {
   return (
-    <div className="App">
-      <h1>React File Viewer Demo</h1>
-      <h2>Displaying file with extension {type}</h2>
-      <FileViewer fileType={type} filePath={file} onError={onError} />
-    </div>
+    <Modal
+aria-labelledby='transition-modal-title'
+aria-describedby='transition-modal-description'
+className={classes.modal}
+open={open}
+onClose={handleClose}
+closeAfterTransition
+BackdropComponent={Backdrop}
+BackdropProps={{
+	timeout: 500,
+}}>
+<Fade in={open}>
+	<div
+		className={classes.paper}
+		style={{ width: '70%', height: '90%' }}>
+		<Grid
+			container
+			direction='row'
+			justify='space-between'
+			alignItems='flex-start'
+			style={{ marginBottom: '10px' }}>
+			<Grid>
+				<h4 id='transition-modal-title'>
+				</h4>
+		        </Grid>
+		</Grid>
+		<p id='transition-modal-description'
+		style={{ width: '100%', height: '95%' }}>
+		<embed
+		style={{
+		        width: '100%',
+			height: '100%',
+		}}
+		type='application/pdf'
+		src={pdf}
+		/>
+		</p>
+	</div>
+</Fade>
+</Modal>
   );
 }
 
-const rootElement = document.getElementById("fileviewer");
-ReactDOM.render(<App />, root);
