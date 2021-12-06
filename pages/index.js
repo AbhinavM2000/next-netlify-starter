@@ -18,8 +18,8 @@ export default function Home() {
 <p class='description'>So many things to do... so little time.</p>
 </Link> 
     
-    <Link href='https://abnv.ml'> 
-<a>Here is my resume for now.</a>
+    <Link href='https://abnv.ml/cv'> 
+<a>Here is my CV for now.</a>
 </Link> 
       </main>
 
