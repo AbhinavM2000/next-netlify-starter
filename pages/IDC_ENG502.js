@@ -12,16 +12,6 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="I need to set this up !" />
-       
-<Link href='https://abnv.ml'> 
-<p class='description'>So many things to do... so little time.</p>
-</Link> 
-    
-    <Link href='https://abnv.ml/cv'> 
-<a>Here is my CV for now.</a>
-</Link> 
-
 
 
 <p><strong>IDC_ENG502</strong></p>
@@ -29,7 +19,34 @@ export default function Home() {
 <a>Matthew Arnold: Literature and Science</a>
 </Link> 
  
-
+<Link href='https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/lit%20and%20sci%20matt%20ar.pdf'> 
+<a>Matthew Arnold: Literature and Science</a>
+</Link> 
+    
+    
+    <Link href='https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/lit%20and%20sci%20matt%20ar.pdf'> 
+<a>Matthew Arnold: Literature and Science</a>
+</Link> 
+    
+    
+    <Link href='https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/lit%20and%20sci%20matt%20ar.pdf'> 
+<a>Matthew Arnold: Literature and Science</a>
+</Link> 
+    
+    
+    <Link href='https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/lit%20and%20sci%20matt%20ar.pdf'> 
+<a>Matthew Arnold: Literature and Science</a>
+</Link> 
+    
+    
+    <Link href='https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/lit%20and%20sci%20matt%20ar.pdf'> 
+<a>Matthew Arnold: Literature and Science</a>
+</Link> 
+    
+    
+    <Link href='https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/lit%20and%20sci%20matt%20ar.pdf'> 
+<a>Matthew Arnold: Literature and Science</a>
+</Link> 
 </main>
 
      
