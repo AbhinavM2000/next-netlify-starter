@@ -1,13 +1,82 @@
+/** @jsx jsx */
+import { jsx } from "@emotion/react";
+
 export default function MyComponent(props) {
   return (
     <>
-      <div href="https://abnv.ml/drive/IDC_ENG502" className="div">
+      <div
+        href="https://abnv.ml/drive/IDC_ENG502"
+        css={{
+          display: "flex",
+          flexDirection: "column",
+          position: "relative",
+          marginTop: "20px",
+          height: "auto",
+          paddingTop: "0px",
+          backgroundColor: "rgba(147, 155, 147, 1)",
+          opacity: "1",
+          fontFamily: '"sans-serif", sans-serif',
+          paddingBottom: "0px",
+          marginBottom: "-2px",
+          marginLeft: "150px",
+          marginRight: "150px",
+          paddingLeft: "px",
+          "@media (max-width: 991px)": {
+            display: "flex",
+            flexDirection: "row",
+            overflow: "auto",
+            backgroundColor: "rgba(224, 201, 166, 1)",
+            paddingBottom: "px",
+            marginTop: "0px",
+            width: "100vw",
+            alignSelf: "stretch",
+            marginLeft: "auto",
+            marginRight: "auto",
+          },
+          lineHeight: "normal",
+          textAlign: "center",
+          color: "rgba(255, 255, 255, 1)",
+          cursor: "pointer",
+          pointerEvents: "auto",
+        }}
+      >
         <p style="color:blue;">
           <strong>./</strong>drive<strong>/</strong>IDC_ENG502
         </p>
       </div>
-      <div className="div-2" maxWidth={1200}>
-        <section className="section">
+      <div
+        css={{
+          display: "flex",
+          flexDirection: "column",
+          position: "relative",
+          marginTop: "0px",
+          paddingLeft: "20px",
+          paddingRight: "20px",
+          paddingTop: "25px",
+          paddingBottom: "0px",
+          marginLeft: "150px",
+          backgroundColor: "rgba(251, 251, 248, 1)",
+          marginRight: "150px",
+          marginBottom: "1px",
+          "@media (max-width: 991px)": {
+            backgroundColor: "rgba(224, 201, 166, 1)",
+          },
+          textAlign: "left",
+        }}
+        maxWidth={1200}
+      >
+        <section
+          css={{
+            width: "100%",
+            alignSelf: "stretch",
+            flexGrow: "1",
+            maxWidth: "1200px",
+            display: "flex",
+            flexDirection: "column",
+            marginLeft: "auto",
+            marginRight: "auto",
+          }}
+        >
           <p>
             <br />
           </p>
@@ -87,87 +156,21 @@ export default function MyComponent(props) {
           </p>
         </section>
       </div>
-      <div className="div-3">
+      <div
+        css={{
+          display: "flex",
+          flexDirection: "column",
+          position: "relative",
+          marginTop: "20px",
+          lineHeight: "normal",
+          height: "auto",
+          textAlign: "center",
+        }}
+      >
         <a href="https://abnv.ml/drive/" style="color:blue">
           ./drive
         </a>
       </div>
-      <style jsx>{`
-        .div {
-          display: flex;
-          flex-direction: column;
-          position: relative;
-          margin-top: 20px;
-          height: auto;
-          padding-top: 0px;
-          background-color: rgba(147, 155, 147, 1);
-          opacity: 1;
-          font-family: "sans-serif", sans-serif;
-          padding-bottom: 0px;
-          margin-bottom: -2px;
-          margin-left: 150px;
-          margin-right: 150px;
-          padding-left: px;
-          line-height: normal;
-          text-align: center;
-          color: rgba(255, 255, 255, 1);
-          cursor: pointer;
-          pointer-events: auto;
-        }
-        @media (max-width: 991px) {
-          .div {
-            display: flex;
-            flex-direction: row;
-            overflow: auto;
-            background-color: rgba(224, 201, 166, 1);
-            padding-bottom: px;
-            margin-top: 0px;
-            width: 100vw;
-            align-self: stretch;
-            margin-left: auto;
-            margin-right: auto;
-          }
-        }
-        .div-2 {
-          display: flex;
-          flex-direction: column;
-          position: relative;
-          margin-top: 0px;
-          padding-left: 20px;
-          padding-right: 20px;
-          padding-top: 25px;
-          padding-bottom: 0px;
-          margin-left: 150px;
-          background-color: rgba(251, 251, 248, 1);
-          margin-right: 150px;
-          margin-bottom: 1px;
-          text-align: left;
-        }
-        @media (max-width: 991px) {
-          .div-2 {
-            background-color: rgba(224, 201, 166, 1);
-          }
-        }
-        .section {
-          width: 100%;
-          align-self: stretch;
-          flex-grow: 1;
-          max-width: 1200px;
-          display: flex;
-          flex-direction: column;
-          margin-left: auto;
-          margin-right: auto;
-        }
-        .div-3 {
-          display: flex;
-          flex-direction: column;
-          position: relative;
-          margin-top: 20px;
-          line-height: normal;
-          height: auto;
-          text-align: center;
-        }
-      `}</style>
     </>
   );
 }
