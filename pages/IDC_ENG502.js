@@ -1,201 +1,138 @@
-import * as React from "react";
-import { View, StyleSheet, Image, Text } from "react-native";
-
 export default function MyComponent(props) {
   return (
     <>
-      <View href="https://abnv.ml/drive/IDC_ENG502" style={styles.view1}>
-        <Text>
-          <p style="color:blue;">
-            <strong>./</strong>drive<strong>/</strong>IDC_ENG502
-          </p>
-        </Text>
-      </View>
-      <div maxWidth={1200} style={styles.div1}>
-        <section style={styles.section1}>
+      <div href="https://abnv.ml/drive/IDC_ENG502" className="div">
+        <p style="color:blue;">
+          <strong>./</strong>drive<strong>/</strong>IDC_ENG502
+        </p>
+      </div>
+      <div className="div-2" maxWidth={1200}>
+        <section className="section">
           <p>
             <br />
           </p>
+
           <p>
-            <strong>
-              <Text>IDC_ENG502</Text>
-            </strong>
+            <strong>IDC_ENG502</strong>
           </p>
+
           <p>
-            <a
-              href="https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/lit%20and%20sci%20matt%20ar.pdf"
-              rel="noopener noreferrer"
-              target="_blank"
-              style="color: blue;"
-            >
-              <Text>Matthew Arnold: “</Text>
-              <em>
-                <Text>Literature and Science</Text>
-              </em>
-              <Text>”</Text>
-            </a>
+            <span style="color: blue;">
+              Matthew Arnold: “Literature and Science”
+            </span>
           </p>
+
           <p>
-            <a
-              href="https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/huxx.pdf"
-              rel="noopener noreferrer"
-              target="_blank"
-              style="color: blue;"
-            >
-              <Text>T.H. Huxley: “</Text>
-              <em>
-                <Text>Science and Culture</Text>
-              </em>
-              <Text>”</Text>
-            </a>
+            <span style="color: blue;">T.H. Huxley: “Science and Culture”</span>
           </p>
+
           <p>
-            <a
-              href="https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/khun.pdf"
-              rel="noopener noreferrer"
-              target="_blank"
-              style="color: blue;"
-            >
-              <Text>T.S. Kuhn: “</Text>
-              <em>
-                <Text>The Nature and Necessity of Scientific Revolution</Text>
-              </em>
-              <Text>”</Text>
-            </a>
+            <span style="color: blue;">
+              T.S. Kuhn: “The Nature and Necessity of Scientific Revolution”
+            </span>
           </p>
+
           <p>
-            <a
-              href="https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/snow_1959.pdf"
-              rel="noopener noreferrer"
-              target="_blank"
-              style="color: blue;"
-            >
-              <Text>C.P. Snow: “</Text>
-              <em>
-                <Text>The Two Cultures</Text>
-              </em>
-              <Text>”</Text>
-            </a>
+            <span style="color: blue;">C.P. Snow: “The Two Cultures”</span>
           </p>
+
           <p>
-            <a
-              href="https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/poe.pdf"
-              rel="noopener noreferrer"
-              target="_blank"
-              style="color: blue;"
-            >
-              <Text>Edgar Allan Poe: “</Text>
-              <em>
-                <Text>To Science</Text>
-              </em>
-              <Text>”</Text>
-            </a>
+            <span style="color: blue;">Edgar Allan Poe: “To Science”</span>
           </p>
+
           <p>
-            <a
-              href="https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/RICHARD%20P.%20FEYNMAN-SURELY%20YOU'RE%20JOKING%20MR.%20FEYNMAN.PDF"
-              rel="noopener noreferrer"
-              target="_blank"
-              style="color: blue;"
-            >
-              <Text>Richard Feynman: "</Text>{" "}
-              <em>
-                <Text>Surely You’re Joking Mr. Feynman"</Text>
-              </em>
-            </a>
+            <span style="color: blue;">
+              Richard Feynman: "Surely You’re Joking Mr. Feynman"
+            </span>
           </p>
+
           <p>
-            <a
-              href="https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/Connie%20Willis%20-%20Bellwether%20%20-Spectra%20(2009).pdf"
-              rel="noopener noreferrer"
-              target="_blank"
-              style="color: blue;"
-            >
-              <Text>Connie Willis: "</Text>{" "}
-              <em>
-                <Text>Bellwether</Text>
-              </em>{" "}
-              <Text>"</Text>
-            </a>
+            <span style="color: blue;">Connie Willis: "Bellwether"</span>
           </p>
         </section>
       </div>
-      <View style={styles.view2}>
-        <Text>
-          <a href="https://abnv.ml/drive/" style="color:blue">
-            ./drive
-          </a>
-        </Text>
-      </View>
+      <div className="div-3">
+        <a href="https://abnv.ml/drive/" style="color:blue">
+          ./drive
+        </a>
+      </div>
+      <style jsx>{`
+        .div {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 20px;
+          height: auto;
+          padding-top: 0px;
+          background-color: rgba(147, 155, 147, 1);
+          opacity: 1;
+          font-family: "sans-serif", sans-serif;
+          padding-bottom: 0px;
+          margin-bottom: -2px;
+          margin-left: 150px;
+          margin-right: 150px;
+          padding-left: px;
+          line-height: normal;
+          text-align: center;
+          color: rgba(255, 255, 255, 1);
+          cursor: pointer;
+          pointer-events: auto;
+        }
+        @media (max-width: 991px) {
+          .div {
+            display: flex;
+            flex-direction: row;
+            overflow: auto;
+            background-color: rgba(224, 201, 166, 1);
+            padding-bottom: px;
+            margin-top: 0px;
+            width: 100vw;
+            align-self: stretch;
+            margin-left: auto;
+            margin-right: auto;
+          }
+        }
+        .div-2 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 0px;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-top: 25px;
+          padding-bottom: 0px;
+          margin-left: 150px;
+          background-color: rgba(251, 251, 248, 1);
+          margin-right: 150px;
+          margin-bottom: 1px;
+          text-align: left;
+          color: rgba(0, 0, 0, 1);
+        }
+        @media (max-width: 991px) {
+          .div-2 {
+            background-color: rgba(224, 201, 166, 1);
+          }
+        }
+        .section {
+          width: 100%;
+          align-self: stretch;
+          flex-grow: 1;
+          max-width: 1200px;
+          display: flex;
+          flex-direction: column;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        .div-3 {
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          margin-top: 20px;
+          line-height: normal;
+          height: auto;
+          text-align: center;
+        }
+      `}</style>
     </>
   );
 }
-
-const styles = StyleSheet.create({
-  view1: {
-    display: "flex",
-    flexDirection: "column",
-    position: "relative",
-    marginTop: 20,
-    height: "auto",
-    paddingTop: 0,
-    backgroundColor: "rgba(147, 155, 147, 1)",
-    opacity: 1,
-    fontFamily: '"sans-serif", sans-serif',
-    paddingBottom: 0,
-    marginBottom: "-2px",
-    marginLeft: 150,
-    marginRight: 150,
-    paddingLeft: "px",
-    "@media (max-width: 991px)": {
-      display: "flex",
-      flexDirection: "row",
-      overflow: "auto",
-      backgroundColor: "rgba(224, 201, 166, 1)",
-      paddingBottom: "px",
-      marginTop: "0px",
-      width: "100vw",
-      alignSelf: "stretch",
-      marginLeft: "auto",
-      marginRight: "auto",
-    },
-    textAlign: "center",
-    color: "rgba(255, 255, 255, 1)",
-    cursor: "pointer",
-    pointerEvents: "auto",
-  },
-  div1: {
-    display: "flex",
-    flexDirection: "column",
-    position: "relative",
-    marginTop: 0,
-    paddingLeft: 20,
-    paddingRight: 20,
-    paddingTop: 25,
-    paddingBottom: 0,
-    marginLeft: 150,
-    backgroundColor: "rgba(251, 251, 248, 1)",
-    marginRight: 150,
-    marginBottom: 1,
-    "@media (max-width: 991px)": { backgroundColor: "rgba(224, 201, 166, 1)" },
-    textAlign: "left",
-  },
-  section1: {
-    width: 100,
-    alignSelf: "stretch",
-    flexGrow: 1,
-    maxWidth: 1200,
-    display: "flex",
-    flexDirection: "column",
-    marginLeft: "auto",
-    marginRight: "auto",
-  },
-  view2: {
-    display: "flex",
-    flexDirection: "column",
-    position: "relative",
-    marginTop: 20,
-    height: "auto",
-    textAlign: "center",
-  },
-});
