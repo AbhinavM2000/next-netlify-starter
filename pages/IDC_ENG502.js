@@ -1,7 +1,7 @@
 export default function MyComponent(props) {
   return (
     <>
-      <div href="https://abnv.ml/drive/IDC_ENG502.js" className="div">
+      <div href="https://abnv.ml/drive/IDC_ENG502" className="div">
         <p style="color:blue;">
           <strong>./</strong>drive<strong>/</strong>IDC_ENG502
         </p>
@@ -10,87 +10,137 @@ export default function MyComponent(props) {
         <section className="section">
           <p>
             <br />
+          </p>
+
+          <p>
             <strong>IDC_ENG502</strong>
+          </p>
+
+          <p>
             <br />
-            <br />
-            │
-            <br />
+          </p>
+
+          <p>│</p>
+
+          <p>
             └───
             <a
               href="https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/lit%20and%20sci%20matt%20ar.pdf"
-              style="color:blue;"
+              rel="noopener noreferrer"
+              target="_blank"
+              style="color: blue;"
             >
               Matthew Arnold: “<em>Literature and Science</em>”
             </a>
+          </p>
+
+          <p>
             <br />
-            <br />
-            │
-            <br />
+          </p>
+
+          <p>│</p>
+
+          <p>
             └───
             <a
               href="https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/huxx.pdf"
-              style="color:blue;"
+              rel="noopener noreferrer"
+              target="_blank"
+              style="color: blue;"
             >
               T.H. Huxley: “<em>Science and Culture</em>”
             </a>
+          </p>
+
+          <p>
             <br />
-            <br />
-            │
-            <br />
+          </p>
+
+          <p>│</p>
+
+          <p>
             └───
             <a
               href="https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/khun.pdf"
-              style="color:blue;"
+              rel="noopener noreferrer"
+              target="_blank"
+              style="color: blue;"
             >
               T.S. Kuhn: “
               <em>The Nature and Necessity of Scientific Revolution</em>”
             </a>
+          </p>
+
+          <p>
             <br />
-            <br />
-            │
-            <br />
+          </p>
+
+          <p>│</p>
+
+          <p>
             └───
             <a
               href="https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/snow_1959.pdf"
-              style="color:blue;"
+              rel="noopener noreferrer"
+              target="_blank"
+              style="color: blue;"
             >
               C.P. Snow: “<em>The Two Cultures</em>”
             </a>
+          </p>
+
+          <p>
             <br />
-            <br />
-            │
-            <br />
+          </p>
+
+          <p>│</p>
+
+          <p>
             └───
             <a
               href="https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/poe.pdf"
-              style="color:blue;"
+              rel="noopener noreferrer"
+              target="_blank"
+              style="color: blue;"
             >
               Edgar Allan Poe: “<em>To Science</em>”
             </a>
+          </p>
+
+          <p>
             <br />
-            <br />
-            │
-            <br />
+          </p>
+
+          <p>│</p>
+
+          <p>
             └───
             <a
               href="https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/RICHARD%20P.%20FEYNMAN-SURELY%20YOU'RE%20JOKING%20MR.%20FEYNMAN.PDF"
-              style="color:blue;"
+              rel="noopener noreferrer"
+              target="_blank"
+              style="color: blue;"
             >
               Richard Feynman: " <em>Surely You’re Joking Mr. Feynman"</em>
             </a>
+          </p>
+
+          <p>
             <br />
-            <br />
-            │
-            <br />
+          </p>
+
+          <p>│</p>
+
+          <p>
             └───
             <a
               href="https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/Connie%20Willis%20-%20Bellwether%20%20-Spectra%20(2009).pdf"
-              style="color:blue;"
+              rel="noopener noreferrer"
+              target="_blank"
+              style="color: blue;"
             >
               Connie Willis: " <em>Bellwether</em> "
             </a>
-            <br />
-            <br />
           </p>
         </section>
       </div>
