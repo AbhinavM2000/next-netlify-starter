@@ -39,6 +39,7 @@ export default function Home() {
 <a><strong>Connie Willis : </strong>Bellwether <br/><br/><br/></a>
 </Link> 
     <hr/>
+<br/><br/><br/><br/><p>Note: Downloaded files may not open in browser, go to downloads folder instead.</p>
 </div>
 </div>
 
