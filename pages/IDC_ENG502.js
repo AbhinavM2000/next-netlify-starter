@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-  
+<div className="Container">
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
@@ -37,7 +37,7 @@ export default function Home() {
  
     <br><br>
     <Link href="https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/RICHARD%20P.%20FEYNMAN-SURELY%20YOU'RE%20JOKING%20MR.%20FEYNMAN.PDF"> 
-<a>Richard Feynman: Surely You'’'re Joking Mr Feynman</a>
+<a>Richard Feynman: Surely You’re Joking Mr Feynman</a>
 </Link> 
 <br><br>
     
@@ -45,7 +45,7 @@ export default function Home() {
 <a>Connie Willis: Bellwether </a>
 </Link> 
 </div>
-
+</div>
 
 
   )
