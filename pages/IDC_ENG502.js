@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-<div className="Container">
+<div className="idc">
       <Head>
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
