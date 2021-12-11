@@ -4,10 +4,6 @@ import Link from 'next/link'
 export default function Home() {
   return (
 <div className="idc">
-      <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
 <div className="idc">
 
