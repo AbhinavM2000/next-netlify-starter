@@ -6,7 +6,7 @@
   package = "@netlify/plugin-nextjs"
   
 [[redirects]]
-  from = "/drive"
+  from = "/drive?wiw=ENG.502"
   to = "https://abnv.ml/IDC_ENG502"
   status = 200
   force = true # COMMENT: ensure that we always redirect
