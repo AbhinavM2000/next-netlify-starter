@@ -20,7 +20,7 @@ export default function Home() {
 </div> <div className="idc">
 
     <Link href='https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/khun.pdf'> 
-<a><strong>T.S. Kuhn : </strong>The Nature and Necessity of Scientific Revolution<br/><br/></a>
+<a><strong>T.S. Kuhn : </strong>The Nature and Necessity of Scientific Revolution<br/><br/><br/></a>
 </Link> 
 </div><div className="idc">
     <Link href='https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/snow_1959.pdf'> 
