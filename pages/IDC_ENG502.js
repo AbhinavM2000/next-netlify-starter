@@ -9,7 +9,7 @@ export default function Home() {
 
 
 <p><strong>IDC_ENG502 --PDFs</strong></p><hr/><br/>
- <Link href='https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/lit%20and%20sci%20matt%20ar.pdf'> 
+ <Link href='https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/lit%20and%20sci%20matt%20ar.pdf' download> 
    <a><strong>Matthew Arnold : </strong>Literature and Science <br/><br/><br/></a>
 </Link> 
 
