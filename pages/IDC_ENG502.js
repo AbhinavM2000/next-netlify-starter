@@ -12,7 +12,7 @@ export default function Home() {
  <Link href='https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/lit%20and%20sci%20matt%20ar.pdf'> 
 <a>Matthew Arnold: Literature and Science<br/><br/></a>
 </Link> 
-
+<p><br/><br/><br/></p>
 </div><div className="idc">
 <Link href='https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/huxx.pdf'> 
 <a>T.H. Huxley: Science and Culture<br/><br/></a>
