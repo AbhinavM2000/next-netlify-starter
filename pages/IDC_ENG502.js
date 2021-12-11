@@ -8,14 +8,14 @@ export default function Home() {
 <div className="idc">
 
 
-<p><strong>IDC_ENG502</strong></p><p><br/></p><hr/>
+<p><strong>IDC_ENG502</strong></p><hr/><p><br/></p>
  <Link href='https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/lit%20and%20sci%20matt%20ar.pdf'> 
-<p>Matthew Arnold:Literature and Science<br/><br/></p>
+   <a>Matthew Arnold:Literature and Science <br/><br/></a>
 </Link> 
 
 </div><div className="idc">
 <Link href='https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/huxx.pdf'> 
-<p>T.H. Huxley: Science and Culture<br/><br/></p>
+    <a>T.H. Huxley: Science and Culture <br/><br/></a>
 </Link> 
 </div> <div className="idc">
 
