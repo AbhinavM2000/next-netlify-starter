@@ -6,6 +6,6 @@
   package = "@netlify/plugin-nextjs"
   
   [[redirects]]
-  from = "/*"
+  from = "/drive/*"
   to = "/index.html"
   status = 200
