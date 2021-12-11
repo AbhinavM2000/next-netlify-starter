@@ -44,7 +44,7 @@ export default function Home() {
     <Link href='https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/Connie%20Willis%20-%20Bellwether%20%20-Spectra%20(2009).pdf'> 
 <a>Connie Willis: Bellwether </a>
 </Link> 
-</idc>
+</div>
 
      
     </div>
