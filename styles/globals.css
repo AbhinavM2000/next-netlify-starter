@@ -32,8 +32,6 @@ idc2 {
 
 idc {
   padding: 5rem 5rem !important;
-  flex: 1;
-  display: flex;
   flex-direction: column;
   justify-content: left !important;
   align-items: justify !important;
