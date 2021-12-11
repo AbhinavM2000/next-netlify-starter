@@ -10,12 +10,12 @@ export default function Home() {
 
 <p><strong>IDC_ENG502</strong></p><p><br/></p><hr>
  <Link href='https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/lit%20and%20sci%20matt%20ar.pdf'> 
-<a><strong>Matthew Arnold<strong/>: <i>Literature and Science<br/><br/><i/></a>
+<a><strong>Matthew Arnold<strong/>: Literature and Science<br/><br/></a>
 </Link> 
 
 </div><div className="idc">
 <Link href='https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/huxx.pdf'> 
-<a><strong>T.H. Huxley<strong/>: <i>Science and Culture<i/><br/><br/></a>
+<a><strong>T.H. Huxley<strong/>: Science and Culture<br/><br/></a>
 </Link> 
 </div> <div className="idc">
 
@@ -24,19 +24,19 @@ export default function Home() {
 </Link> 
 </div><div className="idc">
     <Link href='https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/snow_1959.pdf'> 
-<a><strong>C.P. Snow<strong/>: <i>The Two Cultures <i/><br/><br/></a>
+<a><strong>C.P. Snow<strong/>: The Two Cultures <br/><br/></a>
 </Link> 
 </div><div className="idc">
     <Link href='https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/poe.pdf'> 
-<a><strong>Edgar Allan Poe<strong/>: <i>To Science<i/><br/><br/></a>
+<a><strong>Edgar Allan Poe<strong/>: To Science<br/><br/></a>
 </Link> 
 </div><div className="idc">
     <Link href="https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/RICHARD%20P.%20FEYNMAN-SURELY%20YOU'RE%20JOKING%20MR.%20FEYNMAN.PDF"> 
-<a><strong>Richard Feynman<strong/>: <i>Surely You’re Joking Mr Feynman<i/> <br/><br/></a>
+<a><strong>Richard Feynman<strong/>: Surely You’re Joking Mr Feynman <br/><br/></a>
 </Link>
    </div> <div className="idc">
     <Link href='https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/Connie%20Willis%20-%20Bellwether%20%20-Spectra%20(2009).pdf'> 
-<a><strong>Connie Willis<strong/>: <i>Bellwether<i/> <br/><br/></a>
+<a><strong>Connie Willis<strong/>: Bellwether <br/><br/></a>
 </Link> 
 </div>
 </div>
