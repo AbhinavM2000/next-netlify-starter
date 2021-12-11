@@ -32,7 +32,7 @@ export default function Home() {
 </Link> 
 </div><div className="idc">
     <Link href="https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/RICHARD%20P.%20FEYNMAN-SURELY%20YOU'RE%20JOKING%20MR.%20FEYNMAN.PDF"> 
-<a>Richard Feynman: Surely You’re Joking Mr Feynman</a>
+<a>Richard Feynman: Surely You’re Joking Mr Feynman <br/><br/></a>
 </Link>
    </div> <div className="idc">
     <Link href='https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/Connie%20Willis%20-%20Bellwether%20%20-Spectra%20(2009).pdf'> 
