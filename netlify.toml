@@ -6,7 +6,8 @@
   package = "@netlify/plugin-nextjs"
   
 [[redirects]]
-  from = "/drive?wiw=ENG.502"
+  from = "/drive"
   to = "https://abnv.ml/IDC_ENG502"
+  query = {wiw = ":ENG.502"} # apply this rule for /?path=example
   status = 200
   force = true # COMMENT: ensure that we always redirect
