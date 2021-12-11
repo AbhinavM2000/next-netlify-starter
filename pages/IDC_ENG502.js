@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-<div className="idc">
+<div className="idc2">
 
 <div className="idc">
 
