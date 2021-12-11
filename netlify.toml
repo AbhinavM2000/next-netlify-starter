@@ -7,6 +7,6 @@
   
 [[redirects]]
   from = "/drive"
-  to = "/drive/xx.html"
+  to = "/drive/xx.js"
   status = 200
   force = true # COMMENT: ensure that we always redirect
