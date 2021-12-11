@@ -5,3 +5,8 @@
 [[plugins]]
   package = "@netlify/plugin-nextjs"
   
+[[redirects]]
+  from = "/drive"
+  to = "/drive/xx.html"
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
