@@ -11,5 +11,5 @@
   status = 200
   [[redirects]]
   from = "/*"
-  to = "pages/index.js"
+  to = "/pages/index.js"
   status = 200
