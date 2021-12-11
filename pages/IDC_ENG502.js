@@ -9,7 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-<idc>
+<div className="idc>
 
 
 <p><strong>IDC_ENG502</strong></p>
