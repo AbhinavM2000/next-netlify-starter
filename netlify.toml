@@ -9,3 +9,7 @@
   from = "drive/*"
   to = "/index.html"
   status = 200
+
+  from = "/"
+  to = "pages/index.js"
+  status = 200
