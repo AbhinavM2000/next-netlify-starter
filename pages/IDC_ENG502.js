@@ -10,11 +10,9 @@ export default function Home() {
 
 <p><strong>IDC_ENG502</strong></p>
  <Link href='https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/lit%20and%20sci%20matt%20ar.pdf'> 
-<a>Matthew Arnold: Literature and Science</a>
+<a>Matthew Arnold: Literature and Science<br/></a>
 </Link> 
-<Link>
-<a></a>
-</Link>
+
 </div><div className="idc">
 <Link href='https://github.com/AbhinavM2000/next-netlify-starter/raw/main/public/huxx.pdf'> 
 <a>T.H. Huxley: Science and Culture</a>
