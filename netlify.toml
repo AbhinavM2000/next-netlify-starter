@@ -11,3 +11,12 @@
   query = {wiw = ":ENG.502"} # apply this rule for /?path=example
   status = 200
   force = true # COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/rdr"
+  to = "https://youtu.be/q3vIk-0spaU"
+  query = {wiw = ":ALS-13-12"} # apply this rule for /?path=example
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
+
+
