@@ -8,9 +8,9 @@ export default function Home() {
 <div className="idc">
 
 
-<p><strong>IDC_ENG502 --PDFs</strong></p><hr/><br/>
+<p><strong>AT --PDFs</strong></p><hr/><br/>
  <Link href='https://file.io/MlZH7VGNdMCp' download> 
-   <a><strong>Matthew Arnold : </strong>No nonsense QM for Aanchal Tyagi<br/><br/><br/></a>
+   <a><strong>No nonsense QM for Aanchal Tyagi</strong><br/><br/><br/></a>
 </Link> 
 
 
