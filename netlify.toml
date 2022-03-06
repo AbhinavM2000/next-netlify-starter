@@ -20,7 +20,7 @@
   force = true # COMMENT: ensure that we always redirect
 
 [[redirects]]
-  from = "/drive"
+  from = "/xxx"
   to = "https://abnv.ml/QM"
   query = {wiw = ":AT"} # apply this rule for /?path=example
   status = 200
