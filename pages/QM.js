@@ -9,7 +9,7 @@ export default function Home() {
 
 
 <p><strong>AT --PDFs</strong></p><hr/><br/>
- <Link href='https://filebin.net/om96aoqzje5a9jnv' download> 
+ <Link href='https://drive.google.com/file/d/1wcHgkxipvojZJpQNrMnDzY6Gge5SbhI5/view?usp=sharing' download> 
    <a><strong>No nonsense QM for Aanchal Tyagi</strong><br/><br/><br/></a>
 </Link> 
 
