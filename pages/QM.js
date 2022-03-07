@@ -17,7 +17,7 @@ export default function Home() {
     <hr/>
 
 
-<img src="/image1.gif" alt="Netlify Logo" />
+<img src="/image1.gif" alt="Netlify Logo" classname=blah />
 
 
 
