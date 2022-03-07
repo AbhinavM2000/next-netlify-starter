@@ -15,10 +15,10 @@ export default function Home() {
 
 
     <hr/>
-<p>
-    hih
+
+
 <Image src={image1} />
-</p>
+
 
 
 </div>
