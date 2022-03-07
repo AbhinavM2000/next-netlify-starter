@@ -17,10 +17,15 @@ export default function Home() {
 
     <hr/>
 
-
+ <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
 <img src="/image1.gif" alt="Netlify Logo" classname={styles.logo} />
 
-
+</div>
 
 </div>
 </div>
