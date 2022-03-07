@@ -16,6 +16,7 @@ export default function Home() {
 
     <hr/>
 <p>
+    hih
 <img src="https://c.tenor.com/NEXkjuU30Z0AAAAM/snowball-bunny-carrot.gif">
 </p>
 
