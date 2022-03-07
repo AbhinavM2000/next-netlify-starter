@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import image1 from '/image1.gif';
+import image1 from 'image1.gif';
 export default function Home() {
   return (
 <div className="idc2">
@@ -13,7 +14,7 @@ export default function Home() {
    <a><strong>No nonsense QM for Aanchal Tyagi</strong><br/><br/><br/></a>
 </Link> 
 
-
+<Image src={image1} />
     <hr/>
 
 
