@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-
+import image1 from '/image1.gif';
 export default function Home() {
   return (
 <div className="idc2">
@@ -17,7 +17,7 @@ export default function Home() {
     <hr/>
 <p>
     hih
-<img src="https://c.tenor.com/NEXkjuU30Z0AAAAM/snowball-bunny-carrot.gif">
+<Image src={image1} />
 </p>
 
 
