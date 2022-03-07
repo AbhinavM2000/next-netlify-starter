@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from "next/image"
 import Link from 'next/link'
 import image1 from '/image1.gif';
 import image1 from 'image1.gif';
