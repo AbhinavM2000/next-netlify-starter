@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import styles from './blah.css'
 import Image from "next/image"
 import Link from 'next/link'
 export default function Home() {
@@ -17,7 +18,7 @@ export default function Home() {
     <hr/>
 
 
-<img src="/image1.gif" alt="Netlify Logo" classname=blah />
+<img src="/image1.gif" alt="Netlify Logo" classname={styles.logo} />
 
 
 
