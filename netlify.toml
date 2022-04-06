@@ -14,7 +14,7 @@
 
 [[redirects]]
   from = "/rdr"
-  to = "https://youtu.be/q3vIk-0spaU"
+  to = "http://shorturl.at/nzN89"
   query = {wiw = ":ALS-13-12"} # apply this rule for /?path=example
   status = 200
   force = true # COMMENT: ensure that we always redirect
