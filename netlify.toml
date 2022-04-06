@@ -26,3 +26,9 @@
   status = 200
   force = true # COMMENT: ensure that we always redirect
 
+[[redirects]]
+  from = "/tt"
+  to = "https://calendar.google.com/calendar/embed?src=87njf800jimk3skmo9vfrqrfq8%40group.calendar.google.com&ctz=Asia%2FKolkata"
+  query = {wiw = ":tt"} # apply this rule for /?path=example
+  status = 200
+  force = true # COMMENT: ensure that we always redirect
