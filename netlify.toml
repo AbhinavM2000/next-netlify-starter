@@ -14,8 +14,8 @@
 
 [[redirects]]
   from = "/rdr"
-  to = "http://shorturl.at/nzN89"
-  query = {wiw = ":ALS-13-12"} # apply this rule for /?path=example
+  to = "https://cup.edu.in"
+  query = {wiw = "MMME-CUPB"} # apply this rule for /?path=example
   status = 200
   force = true # COMMENT: ensure that we always redirect
 
