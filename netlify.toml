@@ -14,7 +14,7 @@
 
 [[redirects]]
   from = "/rdr"
-  to = "https://cup.edu.in"
+  to = "http://cup.edu.in"
   query = {wiw = "MMME-CUPB"} # apply this rule for /?path=example
   status = 200
   force = true # COMMENT: ensure that we always redirect
